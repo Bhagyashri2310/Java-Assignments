@@ -1,0 +1,29 @@
+class Animal {
+    void eat() {
+        System.out.println("Animal eats food");
+    }
+}
+interface Terrestrial {
+    void walk();
+}
+interface Aquatic {
+    void swim();
+}
+class Frog extends Animal implements Terrestrial, Aquatic {
+    public void walk() {
+        System.out.println("Frog walks on land");
+    }
+
+    public void swim() {
+        System.out.println("Frog swims in water");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Frog frog = new Frog();
+        frog.eat();   
+        frog.walk();  
+        frog.swim();  
+    }
+}

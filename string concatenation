@@ -1,0 +1,5 @@
+String a="Ashwini";
+String b="Atole";
+String c;
+c=a+b; //concatenation
+System.out.println("The value of c is: " + c);

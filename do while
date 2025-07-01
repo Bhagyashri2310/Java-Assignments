@@ -1,0 +1,11 @@
+public class DoWhileExample {
+    public static void main(String[] args) {
+        int i = 1;
+
+        // do-while loop starts
+        do {
+            System.out.println("Number: " + i);
+            i++;  // increment i
+        } while (i <= 5);
+    }
+}
